@@ -12,12 +12,12 @@ var mainState = {
         game.scale.pageAlignVertically = true;
 
         game.stage.backgroundColor = '#71c5cf';
-        game.load.image("background1", 'assets/bg1.png');
-        game.load.image("background3", 'assets/bg2.jpg');
-        game.load.image("background2", 'assets/bg3.png');
-        game.load.image('bird', 'assets/bird.png');  
-        game.load.image('pipe', 'assets/pipe.png'); 
-        game.load.image('pipetop', 'assets/pipetop.png')
+        game.load.image("background1", 'bg1.png');
+        game.load.image("background3", 'bg2.jpg');
+        game.load.image("background2", 'bg3.png');
+        game.load.image('bird', 'bird.png');  
+        game.load.image('pipe', 'pipe.png'); 
+        game.load.image('pipetop', 'pipetop.png')
 
         // Load the jump sound
         game.load.audio('jump', 'assets/jump.wav'); 
